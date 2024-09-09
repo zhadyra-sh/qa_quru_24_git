@@ -4,7 +4,7 @@ public class Main {
 
     private static String msg = "hihihi!";
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.printf(msg);
     
         }
