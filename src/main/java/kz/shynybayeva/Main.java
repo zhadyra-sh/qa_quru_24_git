@@ -1,10 +1,12 @@
 package kz.shynybayeva;
 
 public class Main {
+
+    private static msg = "hihihi!";
+
     public static void main(String[] args) {
-        System.out.printf("Hello Test!!!");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+        System.out.printf(msg);
+    
         }
     }
 }
