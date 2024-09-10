@@ -1,12 +1,17 @@
 package kz.shynybayeva;
 
 public class Main {
+  
+  public static String msg = "hi!";
 
-    private static String msg = "hihihi!";
 
     public static void main(String... args) {
-        System.out.printf(msg);
-    
+    System.out.printf(getMessage);
+   
+
+    }
+        
+        private static String getMessage (){
+        return msg;
         }
     }
-}
