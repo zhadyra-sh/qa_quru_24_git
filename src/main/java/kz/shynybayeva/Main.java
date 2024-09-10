@@ -2,10 +2,10 @@ package kz.shynybayeva;
 
 public class Main {
 
-    private static String msg = "hihihi!";
+    private static String message = "hihihi!";
 
     public static void main(String[] args) {
-        System.out.println(msg);
+        System.out.println(message);
     }
 
 
